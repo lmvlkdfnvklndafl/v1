@@ -1,0 +1,69 @@
+/* CSS for header */
+.tdh {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    /* padding: 30px; */
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: azure;
+    top: 0;
+}
+
+.tdh1 {
+    display: block;
+    color: white;
+    padding: 20px;
+}
+
+.tdh>a:hover {
+    background-color: white;
+    color: #000000;
+
+}
+
+/* CSS for main content */
+#main-content {
+    display: flex;
+    text-align: center;
+    background-color: black;
+    margin-top: -15px;
+    width: 100vw;
+    height: auto;
+}
+
+#main-content2 {
+    display: flex;
+    text-align: center;
+    background-color: black;
+}
+
+body {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    margin: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    padding: 10px;
+
+}
+.khung{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 800px;
+}
